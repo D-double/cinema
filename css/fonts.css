@@ -1,30 +1,57 @@
 @font-face {
-  font-family: 'Comfortaa';
-  src: url(../fonts/Comfortaa/Comfortaa-Bold.ttf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'Comfortaa';
+  font-family: "Comfortaa";
   src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf);
   font-weight: 400;
 }
+
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Comfortaa";
+  src: url(../fonts/Comfortaa/Comfortaa-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
   src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
   font-weight: 700;
 }
+
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
   font-weight: 400;
 }
+
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Medium.ttf);
   font-weight: 500;
 }
-@font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto/Roboto-Regular.ttf);
-  font-weight: 400;
+
+:root {
+  --fontFirst: "Comfortaa";
+  --fontSecond: "Montserrat";
+  --fontThird: "Roboto";
+  --body: #FFF6EF;
+  --color: #fff;
+  --btn: #F18128;
+  --btnColor: #000;
+  --scroll: #F18128;
+  --header: rgba(255, 226, 204, 0.8);
+  --header-color: #040D1F;
+  --link: #ED8E00;
+  --linkBg: rgba(237, 142, 0, 0.2);
+  --banner: rgba(80, 36, 0, 0.75);
+  --banner-color: #C8C8C8;
+  --title: #F18128;
+  --filmsBg: linear-gradient(180deg, rgba(241, 129, 40, 0.35) 0%, rgba(0, 0, 0, 0.71) 51.04%, rgba(159, 71, 0, 0.8) 100%);
+  --time: rgba(7, 15, 25, 0.2);
+  --premierColor: #000;
+  --premierBg: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 45.64%, rgba(255, 255, 255, 0) 100.72%);
 }
